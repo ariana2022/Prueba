@@ -24,7 +24,7 @@ WORKDIR /app
 COPY --from=build /app/target/gestion-estudiantil-1.0.0-SNAPSHOT.jar app.jar
 
 # Exponer el puerto donde correrá la aplicación
-EXPOSE 5432
+EXPOSE 8080
 
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "app.jar"]
