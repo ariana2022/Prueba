@@ -1,2 +1,2 @@
-runtime: java   # Cambia esto según tu lenguaje de programación
-entrypoint: <comando_para_iniciar_tu_aplicación>   # Define el comando para iniciar tu aplicación
+runtime: java11
+entrypoint: java -jar target/mi-app.jar
